@@ -384,6 +384,15 @@ function App() {
           </div>
         </div>
       </footer>
+
+      {/* BugDrop Explainer Callout */}
+      <div className="bugdrop-explainer">
+        <div className="explainer-content">
+          <span className="explainer-title">Try BugDrop</span>
+          <span className="explainer-desc">Ship bugs to GitHub in 2 clicks</span>
+        </div>
+        <span className="explainer-arrow">↘</span>
+      </div>
     </div>
   )
 }
