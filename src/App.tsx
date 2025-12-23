@@ -52,33 +52,12 @@ function App() {
 
   return (
     <div className="app-container">
-<<<<<<< HEAD
       {/* Decorative backgrounds */}
       <div className="paw-bg"></div>
       <div className="floating-shapes">
         <div className="shape shape-1"></div>
         <div className="shape shape-2"></div>
         <div className="shape shape-3"></div>
-=======
-      <header className="app-header">
-        <h1>BugDrop Test App</h1>
-        <p className="subtitle">A simple todo list to test BugDrop's element picker</p>
-      </header>
-
-      <div className="stats-bar">
-        <div className="stat">
-          <span className="stat-label">Total:</span>
-          <span className="stat-value">{stats.total}</span>
-        </div>
-        <div className="stat">
-          <span className="stat-label">Active:</span>
-          <span className="stat-value">{stats.active}</span>
-        </div>
-        <div className="stat">
-          <span className="stat-label">Completed:</span>
-          <span className="stat-value">{stats.completed}</span>
-        </div>
->>>>>>> origin/main
       </div>
 
       {/* Navigation */}
@@ -392,7 +371,6 @@ function App() {
 
       {/* Footer */}
       <footer className="app-footer">
-<<<<<<< HEAD
         <div className="footer-content">
           <div className="footer-brand">
             <span>🐕</span> WienerMatch
@@ -405,9 +383,6 @@ function App() {
             <a href="#" className="footer-link">Contact</a>
           </div>
         </div>
-=======
-        <p>Use BugDrop to report issues or suggest improvements!</p>
->>>>>>> origin/main
       </footer>
     </div>
   )
