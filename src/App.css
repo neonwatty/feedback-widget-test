@@ -1103,6 +1103,27 @@ body {
   opacity: 0.9;
 }
 
+.explainer-links {
+  display: flex;
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.explainer-links a {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #1a1b26;
+  text-decoration: none;
+  padding: 4px 10px;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 6px;
+  transition: background 0.2s ease;
+}
+
+.explainer-links a:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+
 .explainer-arrow {
   font-size: 1.5rem;
   color: #ff9e64;

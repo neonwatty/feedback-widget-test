@@ -390,6 +390,14 @@ function App() {
         <div className="explainer-content">
           <span className="explainer-title">Try BugDrop</span>
           <span className="explainer-desc">Ship bugs to GitHub in 2 clicks</span>
+          <div className="explainer-links">
+            <a href="https://github.com/neonwatty/bugdrop" target="_blank" rel="noopener noreferrer">
+              View on GitHub
+            </a>
+            <a href="https://github.com/apps/neonwatty-bugdrop/installations/new" target="_blank" rel="noopener noreferrer">
+              Install App
+            </a>
+          </div>
         </div>
         <span className="explainer-arrow">↘</span>
       </div>
