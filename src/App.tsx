@@ -54,7 +54,7 @@ function App() {
     <div className="app-container">
       <header className="app-header">
         <h1>Feedback Widget Test App</h1>
-        <p className="subtitle">A simple todo list to test the feedback widget's element picker</p>
+        <p className="subtitle">A simple todo list to test the feedback widget's elment picker</p>
       </header>
 
       <div className="stats-bar">
