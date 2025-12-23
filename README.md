@@ -1,18 +1,18 @@
-# Feedback Widget Test App
+# BugDrop Test App
 
-A simple TypeScript fullstack todo list application built with Vite + React to test the feedback widget integration.
+A simple TypeScript fullstack todo list application built with Vite + React to test BugDrop integration.
 
 ## Features
 
 - Interactive todo list with add, complete, and delete functionality
 - Filter todos by status (All, Active, Completed)
 - Live statistics showing total, active, and completed todos
-- Integrated feedback widget for user feedback and bug reports
+- Integrated BugDrop widget for user feedback and bug reports
 - Responsive design with smooth animations
 
-## Feedback Widget Integration
+## BugDrop Integration
 
-This app includes the feedback widget script that allows users to:
+This app includes the BugDrop widget script that allows users to:
 - Report bugs and issues
 - Suggest improvements
 - Select specific UI elements for context-aware feedback

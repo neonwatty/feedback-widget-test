@@ -9,7 +9,7 @@ interface Todo {
 
 function App() {
   const [todos, setTodos] = useState<Todo[]>([
-    { id: 1, text: 'Test the feedback widget', completed: false },
+    { id: 1, text: 'Test BugDrop', completed: false },
     { id: 2, text: 'Click on various elements', completed: false },
     { id: 3, text: 'Submit feedback', completed: false },
   ])
@@ -53,8 +53,8 @@ function App() {
   return (
     <div className="app-container">
       <header className="app-header">
-        <h1>Feedback Widget Test App</h1>
-        <p className="subtitle">A simple todo list to test the feedback widget's elment picker</p>
+        <h1>BugDrop Test App</h1>
+        <p className="subtitle">A simple todo list to test BugDrop's element picker</p>
       </header>
 
       <div className="stats-bar">
@@ -137,7 +137,7 @@ function App() {
       </div>
 
       <footer className="app-footer">
-        <p>Use the feedback widget to report issues or suggest improvements!</p>
+        <p>Use BugDrop to report issues or suggest improvements!</p>
       </footer>
     </div>
   )
