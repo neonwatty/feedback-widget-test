@@ -1065,3 +1065,56 @@ body {
     font-size: 5rem;
   }
 }
+
+/* ===========================================
+   BugDrop Explainer Callout
+   =========================================== */
+
+.bugdrop-explainer {
+  position: fixed;
+  bottom: 90px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4px;
+  z-index: 999;
+  animation: fadeUp 0.5s ease-out 1s both;
+}
+
+.explainer-content {
+  background: linear-gradient(135deg, #ff9e64 0%, #f7768e 100%);
+  color: #1a1b26;
+  padding: 12px 16px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(255, 158, 100, 0.3);
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.explainer-title {
+  font-weight: 700;
+  font-size: 0.95rem;
+}
+
+.explainer-desc {
+  font-size: 0.8rem;
+  opacity: 0.9;
+}
+
+.explainer-arrow {
+  font-size: 1.5rem;
+  color: #ff9e64;
+  margin-right: 10px;
+  animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(5px);
+  }
+}
