@@ -41,6 +41,76 @@ html {
   scroll-behavior: smooth;
 }
 
+/* ===========================================
+   BugDrop Demo Banner
+   =========================================== */
+
+.demo-banner {
+  background: linear-gradient(135deg, #1a1b26 0%, #24283b 100%);
+  color: white;
+  padding: 12px 20px;
+  text-align: center;
+  position: relative;
+  z-index: 1000;
+}
+
+.demo-banner-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.demo-banner-icon {
+  font-size: 1.4rem;
+}
+
+.demo-banner-text {
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.demo-banner-text strong {
+  color: #ff9e64;
+}
+
+.demo-banner-links {
+  display: flex;
+  gap: 16px;
+  margin-left: 8px;
+}
+
+.demo-banner-links a {
+  color: #7aa2f7;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding: 4px 12px;
+  background: rgba(122, 162, 247, 0.15);
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+.demo-banner-links a:hover {
+  background: rgba(122, 162, 247, 0.3);
+  color: #9bb8fc;
+}
+
+@media (max-width: 768px) {
+  .demo-banner-content {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .demo-banner-links {
+    margin-left: 0;
+    margin-top: 4px;
+  }
+}
+
 body {
   font-family: var(--font-body);
   background: var(--bg-cream);
@@ -936,6 +1006,28 @@ body {
 .footer-content {
   max-width: 1100px;
   margin: 0 auto;
+}
+
+.footer-bugdrop {
+  font-size: 1.1rem;
+  color: white;
+  margin-bottom: 0.75rem;
+}
+
+.footer-bugdrop a {
+  color: #ff9e64;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.footer-bugdrop a:hover {
+  color: #ffb088;
+}
+
+.footer-disclaimer {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.85rem;
+  margin: 0;
 }
 
 .footer-brand {

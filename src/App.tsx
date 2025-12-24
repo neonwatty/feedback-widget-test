@@ -52,6 +52,25 @@ function App() {
 
   return (
     <div className="app-container">
+      {/* BugDrop Demo Banner */}
+      <div className="demo-banner">
+        <div className="demo-banner-content">
+          <span className="demo-banner-icon">🐛</span>
+          <span className="demo-banner-text">
+            This is a live demo of <strong>BugDrop</strong> — a GitHub feedback widget.
+            Try clicking the bug button!
+          </span>
+          <div className="demo-banner-links">
+            <a href="https://github.com/neonwatty/bugdrop" target="_blank" rel="noopener noreferrer">
+              View on GitHub
+            </a>
+            <a href="https://github.com/apps/neonwatty-bugdrop/installations/new" target="_blank" rel="noopener noreferrer">
+              Install App
+            </a>
+          </div>
+        </div>
+      </div>
+
       {/* Decorative backgrounds */}
       <div className="paw-bg"></div>
       <div className="floating-shapes">
@@ -372,16 +391,19 @@ function App() {
       {/* Footer */}
       <footer className="app-footer">
         <div className="footer-content">
-          <div className="footer-brand">
-            <span>🐕</span> WienerMatch
+          <div className="footer-bugdrop">
+            <span>🐛</span> Demo site powered by{' '}
+            <a href="https://github.com/neonwatty/bugdrop" target="_blank" rel="noopener noreferrer">
+              <strong>BugDrop</strong>
+            </a>
+            {' · '}
+            <a href="https://github.com/apps/neonwatty-bugdrop/installations/new" target="_blank" rel="noopener noreferrer">
+              Install App
+            </a>
           </div>
-          <p>© 2024 WienerMatch. Made with ❤️ for wiener dog lovers.</p>
-          <div className="footer-links">
-            <a href="#" className="footer-link">About</a>
-            <a href="#" className="footer-link">Privacy</a>
-            <a href="#" className="footer-link">Terms</a>
-            <a href="#" className="footer-link">Contact</a>
-          </div>
+          <p className="footer-disclaimer">
+            WienerMatch is a fictional demo. Made with ❤️ to showcase BugDrop.
+          </p>
         </div>
       </footer>
 
