@@ -408,7 +408,7 @@ function App() {
       <div className="bugdrop-explainer">
         <div className="explainer-content">
           <span className="explainer-title">Try BugDrop</span>
-          <span className="explainer-desc">Free feedback widget for any app</span>
+          <span className="explainer-desc">In-app feedback → GitHub Issues</span>
           <div className="explainer-links">
             <a href="https://github.com/neonwatty/bugdrop" target="_blank" rel="noopener noreferrer">
               GitHub
