@@ -57,15 +57,15 @@ function App() {
         <div className="demo-banner-content">
           <span className="demo-banner-icon">🐛</span>
           <span className="demo-banner-text">
-            This is a live demo of <strong>BugDrop</strong> — a GitHub feedback widget.
-            Try clicking the bug button!
+            <strong>BugDrop</strong> — Free GitHub App for in-app feedback.
+            Screenshots, annotations & comments → GitHub Issues. Try it!
           </span>
           <div className="demo-banner-links">
             <a href="https://github.com/neonwatty/bugdrop" target="_blank" rel="noopener noreferrer">
-              View on GitHub
+              GitHub
             </a>
             <a href="https://github.com/apps/neonwatty-bugdrop/installations/new" target="_blank" rel="noopener noreferrer">
-              Install App
+              Install Free
             </a>
           </div>
         </div>
@@ -392,18 +392,15 @@ function App() {
       <footer className="app-footer">
         <div className="footer-content">
           <div className="footer-bugdrop">
-            <span>🐛</span> Demo site powered by{' '}
+            <span>🐛</span> Powered by{' '}
             <a href="https://github.com/neonwatty/bugdrop" target="_blank" rel="noopener noreferrer">
               <strong>BugDrop</strong>
             </a>
-            {' · '}
+            {' — free to install & self-host · '}
             <a href="https://github.com/apps/neonwatty-bugdrop/installations/new" target="_blank" rel="noopener noreferrer">
-              Install App
+              Install
             </a>
           </div>
-          <p className="footer-disclaimer">
-            WienerMatch is a fictional demo. Made with ❤️ to showcase BugDrop.
-          </p>
         </div>
       </footer>
 
@@ -411,7 +408,7 @@ function App() {
       <div className="bugdrop-explainer">
         <div className="explainer-content">
           <span className="explainer-title">Try BugDrop</span>
-          <span className="explainer-desc">Ship bugs to GitHub in 2 clicks</span>
+          <span className="explainer-desc">Free feedback widget for any app</span>
           <div className="explainer-links">
             <a href="https://github.com/neonwatty/bugdrop" target="_blank" rel="noopener noreferrer">
               GitHub
