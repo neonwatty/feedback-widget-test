@@ -57,8 +57,8 @@ function App() {
         <div className="demo-banner-content">
           <span className="demo-banner-icon">🐛</span>
           <span className="demo-banner-text">
-            <strong>BugDrop</strong> — Free GitHub App for in-app feedback.
-            Screenshots, annotations & comments → GitHub Issues. Try it!
+            <strong>BugDrop</strong> — Let users give feedback right in your app!
+            Screenshots & comments → GitHub Issues. Free & open source.
           </span>
           <div className="demo-banner-links">
             <a href="https://github.com/neonwatty/bugdrop" target="_blank" rel="noopener noreferrer">
