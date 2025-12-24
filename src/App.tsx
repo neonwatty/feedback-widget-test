@@ -417,7 +417,7 @@ function App() {
               Install
             </a>
             <a href="https://github.com/neonwatty/feedback-widget-test/issues" target="_blank" rel="noopener noreferrer">
-              View Issues
+              Demo Issues
             </a>
           </div>
         </div>
