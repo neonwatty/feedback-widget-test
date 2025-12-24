@@ -1,52 +1,18 @@
-# WienerMatch
+# BugDrop Demo
 
-A playful landing page for WienerMatch - AI-powered dachshund matchmaking. Built with Vite + React to demo BugDrop integration.
+Live demo of [BugDrop](https://github.com/neonwatty/bugdrop) — a free, open-source GitHub App that lets users give feedback right in your app.
 
-## Features
+**Try it:** https://neonwatty.github.io/feedback-widget-test/
 
-- Curved "Wiener Dog" SVG text effect in hero section
-- Interactive "Doxie Wishlist Builder" demo with trait management
-- Warm cream/orange dachshund-inspired color palette
-- Testimonials, features, how-it-works, and CTA sections
-- Floating dog emoji decorations with smooth animations
-- Integrated BugDrop widget for feedback and bug reports
+Click the 🐛 bug button to submit feedback with screenshots & comments → creates a GitHub Issue.
 
-## BugDrop Integration
+## What is BugDrop?
 
-This app includes the BugDrop widget that allows users to:
-- Report bugs and issues with screenshots
-- Select specific UI elements for context-aware feedback
-- Submit feedback directly to GitHub Issues
+A free, open-source **GitHub App** that adds a feedback widget to your app:
+- Screenshots, annotations, comments
+- Submits directly to GitHub Issues
+- [Install the GitHub App](https://github.com/apps/neonwatty-bugdrop/installations/new)
 
-The widget is configured to submit feedback to the `neonwatty/feedback-widget-test` repository.
+## About This Demo
 
-## Development
-
-```bash
-# Install dependencies
-npm install
-
-# Run development server
-npm run dev
-
-# Build for production
-npm run build
-
-# Deploy to GitHub Pages
-npm run deploy
-```
-
-## Deployment
-
-This app is automatically deployed to GitHub Pages via GitHub Actions whenever changes are pushed to the main branch.
-
-Live demo: https://neonwatty.github.io/feedback-widget-test/
-
-## Tech Stack
-
-- **Frontend**: React 19 + TypeScript
-- **Build Tool**: Vite
-- **Styling**: CSS
-- **Feedback**: BugDrop
-- **Deployment**: GitHub Pages
-- **CI/CD**: GitHub Actions
+WienerMatch is a fictional landing page used to demonstrate BugDrop. Issues submitted here go to this repo's [Issues](https://github.com/neonwatty/feedback-widget-test/issues).
