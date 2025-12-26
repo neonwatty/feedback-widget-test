@@ -16,3 +16,26 @@ A free, open-source **GitHub App** that adds a feedback widget to your app:
 ## About This Demo
 
 WienerMatch is a fictional landing page used to demonstrate BugDrop. Issues submitted here go to this repo's [Issues](https://github.com/neonwatty/feedback-widget-test/issues).
+
+## Widget Configuration
+
+This demo shows **optional** name/email fields. You can configure these per your needs:
+
+```html
+<script
+  src="https://bugdrop.neonwatty.workers.dev/widget.js"
+  data-repo="your-org/your-repo"
+  data-show-name="true"      <!-- Optional: show name field -->
+  data-show-email="true"     <!-- Optional: show email field -->
+></script>
+```
+
+| Attribute | Description | Default |
+|-----------|-------------|---------|
+| `data-repo` | Your GitHub repository | **required** |
+| `data-show-name` | Display name input field | `false` |
+| `data-require-name` | Make name required | `false` |
+| `data-show-email` | Display email input field | `false` |
+| `data-require-email` | Make email required | `false` |
+
+See the [BugDrop documentation](https://github.com/neonwatty/bugdrop#widget-options) for all options.
