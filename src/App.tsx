@@ -409,9 +409,10 @@ function App() {
         <div className="explainer-content">
           <span className="explainer-title">Try BugDrop</span>
           <span className="explainer-desc">In-app feedback → GitHub Issues</span>
+          <span className="explainer-note">Add name/email fields, themes & more</span>
           <div className="explainer-links">
-            <a href="https://github.com/neonwatty/bugdrop" target="_blank" rel="noopener noreferrer">
-              GitHub
+            <a href="https://github.com/neonwatty/bugdrop#widget-options" target="_blank" rel="noopener noreferrer">
+              Customize
             </a>
             <a href="https://github.com/apps/neonwatty-bugdrop/installations/new" target="_blank" rel="noopener noreferrer">
               Install

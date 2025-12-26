@@ -1218,6 +1218,13 @@ body {
   font-weight: 500;
 }
 
+.explainer-note {
+  font-size: 0.85rem;
+  opacity: 0.75;
+  font-weight: 500;
+  font-style: italic;
+}
+
 .explainer-links {
   display: flex;
   gap: 10px;
