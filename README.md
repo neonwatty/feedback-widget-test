@@ -19,14 +19,14 @@ WienerMatch is a fictional landing page used to demonstrate BugDrop. Issues subm
 
 ## Widget Configuration
 
-This demo shows **optional** name/email fields. You can configure these per your needs:
+This demo uses the **default configuration** (title + description only). Developers can optionally collect submitter name/email by adding data attributes:
 
 ```html
 <script
   src="https://bugdrop.neonwatty.workers.dev/widget.js"
   data-repo="your-org/your-repo"
-  data-show-name="true"      <!-- Optional: show name field -->
-  data-show-email="true"     <!-- Optional: show email field -->
+  data-show-name="true"
+  data-show-email="true"
 ></script>
 ```
 
