@@ -1,6 +1,6 @@
 # BugDrop Demo
 
-Live demo of [BugDrop](https://github.com/neonwatty/bugdrop) — a free, open-source GitHub App that lets users give feedback right in your app.
+Live demo of [BugDrop](https://github.com/neonwatty/bugdrop) — a free, open-source widget: in-app feedback → GitHub Issues.
 
 **Try it:** https://neonwatty.github.io/feedback-widget-test/
 
