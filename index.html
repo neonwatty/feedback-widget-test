@@ -9,9 +9,27 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
+    <!--
+      BugDrop Widget Configuration
+
+      Required:
+        data-repo: Your GitHub repository (owner/repo)
+
+      Optional (shown here for demo purposes):
+        data-show-name: Show name field (default: false)
+        data-require-name: Make name required (default: false)
+        data-show-email: Show email field (default: false)
+        data-require-email: Make email required (default: false)
+        data-theme: light | dark | auto (default: auto)
+        data-position: bottom-right | bottom-left (default: bottom-right)
+
+      See https://github.com/neonwatty/bugdrop for full documentation.
+    -->
     <script
       src="https://bugdrop.neonwatty.workers.dev/widget.js"
       data-repo="neonwatty/feedback-widget-test"
+      data-show-name="true"
+      data-show-email="true"
     ></script>
   </body>
 </html>
