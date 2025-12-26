@@ -388,6 +388,26 @@ function App() {
         </div>
       </section>
 
+      {/* BugDrop CTA Section */}
+      <section className="bugdrop-cta-section">
+        <div className="bugdrop-cta-content">
+          <div className="bugdrop-cta-icon">🐛</div>
+          <h2>Like this feedback widget?</h2>
+          <p>Add BugDrop to your site in 2 minutes. Free, open source, and creates GitHub Issues automatically.</p>
+          <div className="bugdrop-cta-buttons">
+            <a href="https://github.com/apps/neonwatty-bugdrop/installations/new" target="_blank" rel="noopener noreferrer" className="btn btn-bugdrop-primary">
+              Install Free →
+            </a>
+            <a href="https://github.com/neonwatty/bugdrop" target="_blank" rel="noopener noreferrer" className="btn btn-bugdrop-secondary">
+              View on GitHub
+            </a>
+          </div>
+          <p className="bugdrop-cta-note">
+            See the <a href="https://github.com/neonwatty/feedback-widget-test/issues" target="_blank" rel="noopener noreferrer">issues created by this demo</a>
+          </p>
+        </div>
+      </section>
+
       {/* Footer */}
       <footer className="app-footer">
         <div className="footer-content">
