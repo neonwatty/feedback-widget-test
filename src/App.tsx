@@ -1,6 +1,20 @@
 import { useState } from 'react'
 import './App.css'
 
+// BugDrop API type declaration
+declare global {
+  interface Window {
+    BugDrop?: {
+      open: () => void;
+      close: () => void;
+      hide: () => void;
+      show: () => void;
+      isOpen: () => boolean;
+      isButtonVisible: () => boolean;
+    };
+  }
+}
+
 interface Todo {
   id: number
   text: string
@@ -89,6 +103,15 @@ function App() {
           <a href="#how-it-works" className="nav-link">How It Works</a>
           <a href="#features" className="nav-link">Features</a>
           <a href="#demo" className="nav-link">Find Your Doxie</a>
+          <span
+            className="nav-link nav-report-bug"
+            onClick={() => window.BugDrop?.open()}
+            role="button"
+            tabIndex={0}
+            onKeyPress={(e) => e.key === 'Enter' && window.BugDrop?.open()}
+          >
+            🐛 Report Bug
+          </span>
           <a href="#" className="nav-cta">Get Started</a>
         </div>
       </nav>
@@ -429,10 +452,10 @@ function App() {
         <div className="explainer-content">
           <span className="explainer-title">Try BugDrop</span>
           <span className="explainer-desc">In-app feedback → GitHub Issues</span>
-          <span className="explainer-note">Add name/email fields, themes & more</span>
+          <span className="explainer-note">JS API, themes, dismissible & more</span>
           <div className="explainer-links">
-            <a href="https://github.com/neonwatty/bugdrop#widget-options" target="_blank" rel="noopener noreferrer">
-              Customize
+            <a href="https://github.com/neonwatty/bugdrop#javascript-api" target="_blank" rel="noopener noreferrer">
+              JS API
             </a>
             <a href="https://github.com/apps/neonwatty-bugdrop/installations/new" target="_blank" rel="noopener noreferrer">
               Install
