@@ -23,6 +23,15 @@
         data-theme: light | dark | auto (default: auto)
         data-position: bottom-right | bottom-left (default: bottom-right)
         data-button-dismissible: Allow users to dismiss the button (default: false)
+        data-button: Show/hide floating button (default: true, set false for API-only)
+
+      JavaScript API:
+        window.BugDrop.open()   - Open feedback modal programmatically
+        window.BugDrop.close()  - Close the modal
+        window.BugDrop.hide()   - Hide floating button
+        window.BugDrop.show()   - Show floating button
+        window.BugDrop.isOpen() - Check if modal is open
+        window.BugDrop.isButtonVisible() - Check if button is visible
 
       See https://github.com/neonwatty/bugdrop for full documentation.
     -->

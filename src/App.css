@@ -277,6 +277,19 @@ body {
   color: var(--accent-orange);
 }
 
+.nav-report-bug {
+  cursor: pointer;
+  color: var(--accent-orange);
+  background: rgba(255, 107, 53, 0.1);
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  font-size: 0.9rem;
+}
+
+.nav-report-bug:hover {
+  background: rgba(255, 107, 53, 0.2);
+}
+
 .nav-cta {
   background: var(--accent-orange);
   color: white;
