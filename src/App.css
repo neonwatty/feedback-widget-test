@@ -642,6 +642,108 @@ body {
 }
 
 /* ===========================================
+   API Demo Section
+   =========================================== */
+
+.api-demo-section {
+  position: relative;
+  z-index: 1;
+  padding: 6rem 2rem;
+  background: var(--bg-warm);
+}
+
+.api-demo-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.api-methods-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.api-method-card {
+  background: white;
+  border-radius: 16px;
+  padding: 1.75rem;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  border: 2px solid transparent;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.api-method-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--accent-orange);
+  box-shadow: 0 12px 35px rgba(255, 107, 53, 0.12);
+}
+
+.api-method-card h3 {
+  font-family: 'SF Mono', 'Fira Code', monospace;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--accent-orange);
+  margin: 0;
+}
+
+.api-method-card p {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  line-height: 1.5;
+  margin: 0;
+  flex-grow: 1;
+}
+
+.api-demo-button {
+  background: linear-gradient(135deg, var(--accent-orange) 0%, var(--accent-orange-dark) 100%);
+  color: white;
+  border: none;
+  padding: 0.625rem 1.25rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  font-family: var(--font-body);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  align-self: flex-start;
+}
+
+.api-demo-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(255, 107, 53, 0.4);
+}
+
+.api-code-snippet {
+  display: block;
+  background: var(--bg-cream);
+  padding: 0.625rem 0.875rem;
+  border-radius: 8px;
+  font-family: 'SF Mono', 'Fira Code', monospace;
+  font-size: 0.8rem;
+  color: var(--text-body);
+  margin-top: auto;
+}
+
+@media (max-width: 900px) {
+  .api-methods-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .api-methods-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .api-demo-section {
+    padding: 4rem 1.5rem;
+  }
+}
+
+/* ===========================================
    Quiz/Demo Section
    =========================================== */
 
