@@ -102,6 +102,7 @@ function App() {
         <div className="nav-links">
           <a href="#how-it-works" className="nav-link">How It Works</a>
           <a href="#features" className="nav-link">Features</a>
+          <a href="#api-demo" className="nav-link">API Demo</a>
           <a href="#demo" className="nav-link">Find Your Doxie</a>
           <span
             className="nav-link nav-report-bug"
@@ -237,6 +238,87 @@ function App() {
               <div className="feature-icon">❤️</div>
               <h3>Rescue Partners</h3>
               <p>We work with dachshund rescues nationwide to help find homes for dogs in need of love.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* API Demo Section */}
+      <section className="api-demo-section" id="api-demo">
+        <div className="api-demo-container">
+          <div className="section-header">
+            <span className="section-label">JavaScript API</span>
+            <h2 className="section-title">Control BugDrop Programmatically</h2>
+            <p className="section-subtitle">
+              Use the BugDrop API to integrate feedback into your own UI and workflows.
+            </p>
+          </div>
+          <div className="api-methods-grid">
+            <div className="api-method-card">
+              <h3>open()</h3>
+              <p>Opens the feedback modal programmatically.</p>
+              <button
+                className="api-demo-button"
+                onClick={() => window.BugDrop?.open()}
+              >
+                Try it
+              </button>
+              <code className="api-code-snippet">BugDrop.open()</code>
+            </div>
+            <div className="api-method-card">
+              <h3>close()</h3>
+              <p>Closes the feedback modal if it's open.</p>
+              <button
+                className="api-demo-button"
+                onClick={() => window.BugDrop?.close()}
+              >
+                Try it
+              </button>
+              <code className="api-code-snippet">BugDrop.close()</code>
+            </div>
+            <div className="api-method-card">
+              <h3>hide()</h3>
+              <p>Hides the floating bug button.</p>
+              <button
+                className="api-demo-button"
+                onClick={() => window.BugDrop?.hide()}
+              >
+                Try it
+              </button>
+              <code className="api-code-snippet">BugDrop.hide()</code>
+            </div>
+            <div className="api-method-card">
+              <h3>show()</h3>
+              <p>Shows the floating button (clears dismissed state).</p>
+              <button
+                className="api-demo-button"
+                onClick={() => window.BugDrop?.show()}
+              >
+                Try it
+              </button>
+              <code className="api-code-snippet">BugDrop.show()</code>
+            </div>
+            <div className="api-method-card">
+              <h3>isOpen()</h3>
+              <p>Returns true if the modal is currently open.</p>
+              <button
+                className="api-demo-button"
+                onClick={() => alert(`isOpen(): ${window.BugDrop?.isOpen()}`)}
+              >
+                Try it
+              </button>
+              <code className="api-code-snippet">BugDrop.isOpen()</code>
+            </div>
+            <div className="api-method-card">
+              <h3>isButtonVisible()</h3>
+              <p>Returns true if the floating button is visible.</p>
+              <button
+                className="api-demo-button"
+                onClick={() => alert(`isButtonVisible(): ${window.BugDrop?.isButtonVisible()}`)}
+              >
+                Try it
+              </button>
+              <code className="api-code-snippet">BugDrop.isButtonVisible()</code>
             </div>
           </div>
         </div>
