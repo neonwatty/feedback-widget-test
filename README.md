@@ -39,3 +39,4 @@ This demo uses the **default configuration** (title + description only). Develop
 | `data-require-email` | Make email required | `false` |
 
 See the [BugDrop documentation](https://github.com/neonwatty/bugdrop#widget-options) for all options.
+
